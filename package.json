@@ -1,0 +1,30 @@
+{
+  "name": "server-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "express": "node dist/express.js",
+    "fastify": "node dist/fastify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ig-ealbert/server-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ig-ealbert/server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ig-ealbert/server-boilerplate#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "fastify": "^4.28.1"
+  }
+}
